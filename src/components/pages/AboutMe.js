@@ -3,7 +3,7 @@ import 'bulma/css/bulma.min.css';
 
 
 
-export default function Home() {
+export default function AboutMe() {
   return (
     <div>
       <section class="main has-background-grey-lighter">
@@ -12,11 +12,11 @@ export default function Home() {
         </div>
       </section>
       <section class="section is-medium has-background-info-light">
-        <h1 class="title">About Me</h1>
+        <h1 class="title">Interests</h1>
         <h2 class="subtitle">
-        Hello, my name is Shane Wilmes. I am in training to become a Full Stack Developer. I grew up in the midwest and now live in Colorado.
-        I have a variety of work experience and am excited to start in the the tech industry.  I will have received a Full Stack Developer 
-        certification from Denver University by September, 2022.
+        Hello, my name is Shane Wilmes.  I grew up in the midwest and now live in Colorado.    
+        I have a variety of work experience and am excited to start in the the tech industry.  
+        I will have received a Full Stack Developer certification from Denver University by September, 2022.
         </h2>
       </section>
       {/* add a footer */}
