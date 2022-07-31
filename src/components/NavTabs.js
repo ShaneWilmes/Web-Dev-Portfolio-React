@@ -4,38 +4,39 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul>
+      <li>
         <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
+          class= "is-active "
+          href="#aboutMe"
+          onClick={() => handlePageChange('AboutMe')}
           
 
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          About Me
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
           
 
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
           
 
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Resume
         </a>
       </li>
       <li className="nav-item">
@@ -43,10 +44,10 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#contact"
           
 
-          onClick={() => handlePageChange('Contact')}
+          onClick={() => handlePageChange('Communicate')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+          Contact Info
         </a>
       </li>
     </ul>
