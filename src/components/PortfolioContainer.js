@@ -6,29 +6,30 @@ import Resume from './pages/Resume';
 import AboutMe from './pages/AboutMe';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
-  
+  // Based on current page, renderPage returns/renders the correct component
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
+    if (currentPage === 'AboutMe') {
+      return <AboutMe />;
     }
-    if (currentPage === 'About') {
-      return <About />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
-    return <Contact />;
+    return <Communicate />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
+  
   return (
     <div>
       
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
+      
       {renderPage()}
     </div>
   );
