@@ -23,7 +23,7 @@ Building a portfolio with React
 - From your terminal; run npm start to host the app on [localhost:3000](localhost:3000)
 
 ## Repo
-[ProjectRepo](https://github.com/ShaneWilmes/Web-Dev-Portfolio-React)
+[click for repo location](https://github.com/ShaneWilmes/Web-Dev-Portfolio-React)
 
 ## Communications
 [LinkedIn](https://www.linkedin.com/in/shane-wilmes-/)
