@@ -17,8 +17,7 @@ export default function Social() {
       <section class="section is-medium">
         <h1 class="title">Social Media:</h1>
         <a href='https://www.linkedin.com/in/shane-wilmes-/' target="_blank" rel="noopener noreferrer">LinkedIn</a>  
-        </section>
-                
+        </section>            
            
                  
             
