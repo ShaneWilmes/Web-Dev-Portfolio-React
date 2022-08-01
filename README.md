@@ -24,6 +24,7 @@ Building a portfolio with React
 
 ## Repo
 [Click for repo location](https://github.com/ShaneWilmes/Web-Dev-Portfolio-React)
+Deployed on [Heroku](https://react-portfolio-sww.herokuapp.com/)
 
 ## Communications
 [LinkedIn](https://www.linkedin.com/in/shane-wilmes-/)
