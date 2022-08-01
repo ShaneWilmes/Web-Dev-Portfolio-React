@@ -1,12 +1,12 @@
 # React Portfolio
 
 ## Table of Contents:
-  [Description](#Description) 
-  [Technologies](#Technologies)
-  [Installation](#Installation) 
-  [Usage](#Usage)  
-  [Repo](#Repo)
-  [Contact Me](#Communications)  
+- Description
+- Technologies
+- Installation
+- Usage
+- Repo
+- Contact Me
 
 ## Description
 Building a portfolio with React
