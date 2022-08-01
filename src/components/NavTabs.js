@@ -44,11 +44,11 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#contact"
 
 
-          onClick={() => handlePageChange('Communicate')}
+          onClick={() => handlePageChange('Social')}
 
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Contact Info
+          Social
         </a>
       </li>
     </ul>

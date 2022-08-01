@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Portfolio from './pages/Portfolio';
-import Communicate from './pages/Communicate';
+import Social from './pages/Social'
 import Resume from './pages/Resume';
 import AboutMe from './pages/AboutMe';
 
@@ -19,7 +19,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    return <Communicate />;
+    return <Social />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
