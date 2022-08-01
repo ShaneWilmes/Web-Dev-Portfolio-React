@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.fd628e8b.css",
+    "main.js": "/my-app/static/js/main.01954d7c.js",
+    "static/media/JustParkIt.png": "/my-app/static/media/JustParkIt.c1168ea77f2c851605b5.png",
+    "static/media/TextEditor.png": "/my-app/static/media/TextEditor.533256c52de339888501.png",
+    "index.html": "/my-app/index.html",
+    "main.fd628e8b.css.map": "/my-app/static/css/main.fd628e8b.css.map",
+    "main.01954d7c.js.map": "/my-app/static/js/main.01954d7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd628e8b.css",
+    "static/js/main.01954d7c.js"
+  ]
+}
