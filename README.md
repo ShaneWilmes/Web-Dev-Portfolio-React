@@ -17,7 +17,7 @@ Building a portfolio with React
 - Node.js
 
 ## Installation
--From your terminal; run npm i
+- From your terminal; run npm i
 
 ## Usage
 - From your terminal; run npm start to host the app on [localhost:3000](localhost:3000)
@@ -27,7 +27,7 @@ Building a portfolio with React
 
 ## Communications
 [LinkedIn](https://www.linkedin.com/in/shane-wilmes-/)
-shane.wilmes3678@gmail.com
+
 
 
 
